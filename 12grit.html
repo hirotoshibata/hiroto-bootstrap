@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>12 grid</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="syukudai.css">
+</head>
+<body>
+  <div class="container text-light">
+    <div class="row">
+      <div class="col-12 bg-danger">
+        aaaaaaa
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 bg-success">
+        aaaaaaa
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 bg-info">
+        aaaaaaa
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- マルチカラムレイアウト -->
+<div class="container text-light mt-5">
+  <div class="row bg-secondary">
+    <div class="col-12">header</div>
+  </div>
+  <div class="row">
+    <div class="col-2 bg-info">Sidebar</div>
+    <div class="col-10">
+      <div class="row bg-danger">ホゲホゲ</div>
+      <div class="row bg-warning">ホゲホゲ</div>
+      <div class="row bg-dark">ホゲホゲ</div>
+    </div>
+  </div>
+  <div class="row bg-primary text-light">
+    <div class="col-12">fotter</div>
+  </div>
+</div>
+
+  <!-- グリッドレイアウト -->
+<div class="container">
+  <div class="row p-3 justify-content-around">
+    <div class="p-3 border border-success">緑の枠</div>
+    <div class="p-3 border border-success">緑の枠</div>
+    <div class="p-3 border border-success">緑の枠</div>
+  </div>
+
+  <div class="row p-3 justify-content-around">
+    <div class="p-3 border border-danger">赤の枠</div>
+    <div class="p-3 border border-danger">赤の枠</div>
+    <div class="p-3 border border-danger">赤の枠</div>
+  </div>
+  <div class="row p-3 justify-content-around">
+    <div class="col-2 border border-warning">黄色の枠</div>
+    <div class="col-2 border border-warning">黄色の枠</div>
+    <div class="col-2 border border-warning">黄色の枠</div>
+    <div class="col-2 border border-warning">黄色の枠</div>
+  </div>
+</div>
+
+<!-- レスポンシブ対応 -->
+<div class="container">
+    <div class="row">
+      <button class="col-4 btn btn-success">ボタン</button>
+      <button class="col-4 btn btn-info">ボタン</button>
+      <button class="col-4 btn btn-danger">ボタン</button>
+    </div>
+
+  <!-- min-width:576px -->
+    <div class="row">
+      <button class="col-sm-4 btn btn-success">ボタン</button>
+      <button class="col-sm-4 btn btn-info">ボタン</button>
+      <button class="col-sm-4 btn btn-danger">ボタン</button>
+    </div>
+
+<!-- min-width:768px -->
+  <div class="row mt-5">
+    <button class="col-md-4 btn btn-success">ボタン</button>
+      <button class="col-md-4 btn btn-info">ボタン</button>
+      <button class="col-md-4 btn btn-danger">ボタン</button>
+  </div>
+<!-- min-width:992px -->
+  <div class="row mt-5">
+    <button class="col-lg-4 btn btn-success">ボタン</button>
+      <button class="col-lg-4 btn btn-info">ボタン</button>
+      <button class="col-lg-4 btn btn-danger">ボタン</button>
+  </div>
+<!-- min-width:1200px -->
+  <div class="row mt-5">
+    <button class="col-xl-4 btn btn-success">ボタン</button>
+      <button class="col-xl-4 btn btn-info">ボタン</button>
+      <button class="col-xl-4 btn btn-danger">ボタン</button>
+  </div>
+
+
+</div>
+
+
+</body>
+</html>
